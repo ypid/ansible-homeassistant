@@ -1,0 +1,7 @@
+---
+# vim: foldmarker=[[[,]]]:foldmethod=marker
+
+- name: Restart Home Assistant
+  systemd:
+    name: 'home-assistant'
+    state: 'restarted'
